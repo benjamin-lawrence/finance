@@ -1,0 +1,36 @@
+a, p, h1, h2, h3, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .nav {
+      background-color: orange;
+      height: 45px;
+  }
+  .nav a {
+      float: right;
+      text-decoration: none;
+      font-family: arial;
+      padding: 0 5px;
+      margin: 15px 18px 0 0;
+      color: #ffffff
+  }
+  .nav p {
+      float: left;
+      margin: 15px 0 0 25px;
+      color: #ffffff;
+      font-family: arial;
+  }
+  body {
+      background-color: #F0E4BE;  
+  }
+  .content {
+      width: 1000px;
+      margin: 0 auto; 
+  }
+  .box {
+      width: 250px;
+      float: left;
+      border: 2px solid orange;
+      background-color: #ffffff;
+  }
