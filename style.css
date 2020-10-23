@@ -25,15 +25,13 @@ a, p, h1, h2, h3, div, body, html {
       background-color: #F0E4BE;  
   }
   .content {
-
   }
   .box {
       width: 250px;
       height: 520px;
-      float: left;
       border: 2px solid orange;
       background-color: #ffffff;
-      margin: 10px 20px;
+      margin: 75px 20px;
       padding: 0 10px;
   }
   .box a{
@@ -46,6 +44,9 @@ a, p, h1, h2, h3, div, body, html {
 
   }
   .boxes {
-      max-width: 1300px;
-      margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 75px;
+
   }
